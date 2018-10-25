@@ -2,9 +2,9 @@
 
 借助AHK实现CapsLock+的功能，主要借鉴了了Emacs的光标移动和复用了Ctrl的部分功能
 
-> 感谢Feng Ruohang的脚本，感谢开源的AHK软件
-> [AHK官网][AHK官网]
-> [Feng Ruohang的原脚本网址][Feng Ruohang的原脚本网址]
+> 感谢Feng Ruohang的脚本，感谢开源的AHK软件  
+> [AHK官网][AHK官网]  
+> [Feng Ruohang的原脚本网址][Feng Ruohang的原脚本网址]  
 
 ## 描述:
 
