@@ -4,7 +4,8 @@
 
 > 感谢Feng Ruohang的脚本，感谢开源的AHK软件  
 > [AHK官网][AHK官网]  
-> [Feng Ruohang的原脚本网址][Feng Ruohang的原脚本网址]  
+> [Feng Ruohang的原脚本网址][Feng Ruohang的原脚本网址]   
+> [AHK中文文档][AHK中文文档]   
 
 ## 描述:
 
@@ -21,14 +22,22 @@
 
 | 快捷键           | 描述                                                         |
 | ---------------- | ------------------------------------------------------------ |
-| CapsLock;        | {ESC}  发送退出命令                                          |
+| CapsLock         | {ESC}  发送退出命令                                          |
 | CaspLock + u     | {CapsLock} 取代原本的CapsLock的功能                          |
-| CapsLock + pnbf  | Emacs-Style的光标移动，p是previous向上，n是next，b是back光标向后，f是forward光标向前。 |
+| CapsLock + pnbf  | 上下左右指令。Emacs-Style的上下左右，p是previous向上，n是next，b是back光标向后，f是forward光标向前。 |
 | CapsLock + ae    | a是{Home},跳到行首，e是{End}，跳到行尾。                     |
 | CapsLock + d     | {Delete} 删除键                                              |
 | CapsLock + zxcv  | 冗余原本的Ctrl + zxcv 其中CapsLock + v实际使用的是Ditto的功能，可以调用剪贴板，查看历史粘贴 |
 | CapsLock + Space | Ctrl + Space 切换输入法                                      |
 | Alt + CapsLock   | Alt + Ctrl 标签切换之类的功能                                |
 
+
+
+## 开机启动
+
+安装了AHK后，把这个脚本在路径`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`下丢一个快捷方式就可以开机运行这个脚本了。
+
+
 [AHK官网]: https://autohotkey.com/
-[Feng Ruohang的原脚本网址]: https://github.com/Vonng/Capslock/blob/master/win/CapsLock.ahk
+[Feng Ruohang的原脚本网址]: https://github.com/Vonng/Capslock/blob/master/win/CapsLock.ahk  
+[AHK中文文档]:http://ahkcn.sourceforge.net/docs/AutoHotkey.htm
